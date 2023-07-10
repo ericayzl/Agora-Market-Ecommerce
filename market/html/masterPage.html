@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>##pagename##</title>
+	
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/66c5181835.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div id="store-header">
+		<i class="fa-solid fa-shop my-3 mx-1" style="font-size:48px;"></i>
+		<i class="fa-brands fa-shopify my-3 mx-1" style="font-size:48px;"></i>
+		<i class="fa-solid fa-cart-shopping my-3 mx-1" style="font-size:48px;"></i>
+		<i class="fa-solid fa-cloud my-3 mx-1" style="font-size:48px;"></i>
+		
+	</div>
+
+	<nav class="navbar navbar-expand-lg navbar-light" id="navi">
+		<div class="container-fluid">
+			<div>
+			<a class="navbar-brand" style ="color: #761a1a; font-weight: bold;">Le_Ciel_Girfts</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			</div>
+			
+			
+			<div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0" id="top-menu">
+					<li class="nav-item mx-2">
+						<a class="nav-link menu-link" style ="color: #00204a" aria-current="page" href="marketMain.php">Your Markets</a>
+					</li>
+					<li class="nav-item mx-2">
+						<a class="nav-link menu-link" style ="color: #00204a;" href="productsMain.php">Your Products</a>
+					</li>
+					<li class="nav-item mx-2">
+						<a class="nav-link menu-link" style ="color: #00204a;" href="userProfile.php">Your Account</a>
+					</li>
+				</ul>
+				<form action="searchResults.php" method="POST" class="d-flex" style="margin-left: 3rem; margin-top: 1rem;">
+					<input class="form-control ms-4" style="margin-right: 1rem;" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn my-button" type="submit">Search</button>
+				</form>
+			</div>
+			<div class="text-right" style ="display: ##login##";>
+				<a href="login.php"><button type="button" class="btn my-button" style="margin-left: 3rem;"  >Login</button></a>
+				<a href="signUp.php"><button type="button" class="btn my-button">Signup</button></a>
+			</div>
+			<div class="text-right" style ="display: ##logout##";>
+				<a href="logout.php"><button type="button" class="btn my-button">Logout</button></a>
+			</div>
+		</div>
+	</nav>
+	
+	<div class="container px-5">
+	<h1 class="mt-5 mb-5 pt-1 pb-2 display-4">##pagename##</h1>
+	##content##
+	</div>
+	
+	<!-- JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+      integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>	

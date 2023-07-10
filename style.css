@@ -1,0 +1,84 @@
+#navi {
+	font-size: 1.2rem;
+	background-color: #7c73e6;
+}
+
+#store-header {
+	display: flex;
+	justify-content: center;
+	background-color: #83cee0;
+}
+
+.my-button:hover {
+	
+	background-color: #ffebeb;
+	
+}
+
+.menu-link:hover {
+	color: #bc2525 !important;
+}
+
+.form-div {
+	background-color: #e3f6f5;
+	width: 50%;
+}
+
+.links {
+	color: #e70000;
+	text-decoration: underline;
+}
+
+.informative {
+	font-style: italic;
+}
+
+.filter-menu {
+	width: 10rem;
+}
+
+.info-type {
+	font-weight: bold;
+}
+
+.user-box {
+	margin-right: 2rem;
+}
+
+.admin-action {
+	background-color: #5585b5;
+	color: white;
+}
+
+.filter-btn {
+	background-color: white;
+}
+
+.filter-btn:hover {
+	background-color: #ffebeb;
+}
+
+.admin-action:hover {
+	color: #ffebeb;
+}
+
+.results {
+	color: #761a1a;
+}
+
+img {
+	width: 100%;
+}
+
+.product-box {
+	width: 20rem;
+	margin-right: 4rem;
+}
+
+.product-box:hover {
+	background-color: #e3f6f5;
+}
+
+.errors {
+	font: #761a1a;
+}

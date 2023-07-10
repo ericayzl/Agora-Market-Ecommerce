@@ -1,0 +1,55 @@
+<form action="update.php" method="POST">
+        <div class="form-group">
+          <label for="inputFirstNameSignup">First name</label>
+          <input
+            type="text"
+            class="form-control form-div"
+            id="inputFirstNameSignup"
+            aria-describedby="firstNameHelp"
+            placeholder="Enter your first name"
+			name="firstName"
+			value="##firstname##"
+          />
+        </div>
+        <div class="form-group">
+          <label for="inputLastNameSignup">Last name</label>
+          <input
+            type="text"
+            class="form-control form-div"
+            id="inputLastNameSignup"
+            aria-describedby="lastNameHelp"
+            placeholder="Enter your last name"
+			name="lastName"
+			value="##lastname##"
+          />
+        </div>
+        <div class="form-group">
+          <label for="inputEmailSignup">Email</label>
+          <input
+            type="email"
+            class="form-control form-div"
+            id="inputEmailSignup"
+            aria-describedby="emailHelp"
+            placeholder="Email"
+			name="email"
+			value="##email##"
+          />
+        </div>
+        <div class="form-group">
+          <label for="inputDOBSignup">Date of Birth</label>
+          <input
+            class="form-div form-control"
+            id="inputDOBSignup"
+            type="date"
+            placeholder="dd-mm-yyyy"
+            min="1922-01-01"
+            max="2004-01-01"
+			name="dateOfBirth"
+          />
+        </div>
+		<div class="form-group">
+          <label for="inputProductDescription">User Profile description</label>
+          <textarea class="form-control form-div" id="inputProductDescription" rows="5" placeholder="About yourself" name="profileDescription">##description##</textarea>
+        </div>
+        <button type="submit" class="btn btn-primary mt-4 mb-2">Submit</button>
+      </form>

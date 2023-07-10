@@ -1,0 +1,100 @@
+<form action="signUp.php" method="POST">
+        <div class="form-group">
+          <label for="inputUsernameSignup">Username</label>
+          <input
+            type="text"
+            class="form-control form-div"
+            id="inputUsernameSignup"
+            aria-describedby="usernameHelp"
+            placeholder="Enter username"
+			name="userName"
+          />
+        </div>
+        <div class="form-group">
+          <label for="inputPasswordSignup">Password</label>
+          <input
+            type="password"
+            class="form-control form-div"
+            id="inputPasswordSignup"
+            placeholder="Password"
+			name="password"
+          />
+          <small id="emailHelp" class="form-text text-muted"
+            >Your password must be at least 8 characters long, and contain
+            letters, numbers, and symbols.</small
+          >
+        </div>
+		<div class="form-group">
+          <label for="inputPasswordSignup">Confirm Your Password</label>
+          <input
+            type="password"
+            class="form-control form-div"
+            id="inputPasswordSignup"
+            placeholder="Password"
+			name="confirmPassword"
+          />
+        </div>
+        <div class="form-group">
+          <label for="inputFirstNameSignup">First name</label>
+          <input
+            type="text"
+            class="form-control form-div"
+            id="inputFirstNameSignup"
+            aria-describedby="firstNameHelp"
+            placeholder="Enter your first name"
+			name="firstName"
+          />
+        </div>
+        <div class="form-group">
+          <label for="inputLastNameSignup">Last name</label>
+          <input
+            type="text"
+            class="form-control form-div"
+            id="inputLastNameSignup"
+            aria-describedby="lastNameHelp"
+            placeholder="Enter your last name"
+			name="lastName"
+          />
+        </div>
+        <div class="form-group">
+          <label for="inputEmailSignup">Email</label>
+          <input
+            type="email"
+            class="form-control form-div"
+            id="inputEmailSignup"
+            aria-describedby="emailHelp"
+            placeholder="Email"
+			name="email"
+          />
+        </div>
+        <div class="form-group">
+          <label for="inputDOBSignup">Date of Birth</label>
+          <input
+            class="form-div form-control"
+            id="inputDOBSignup"
+            type="date"
+            placeholder="dd-mm-yyyy"
+            min="1922-01-01"
+            max="2004-01-01"
+			name="dateOfBirth"
+          />
+        </div>
+        <div class="form-group">
+          <label for="inputUserTypeSignup">User Type</label>
+          <select
+            class="form-select form-div form-control"
+            id="inputUserTypeSignup"
+            aria-label="Default select example"
+			name="userType"
+          >
+            <option selected>Please choose your account user type</option>
+            <option value="buyer">Buyer</option>
+            <option value="seller">Seller</option>
+          </select>
+        </div>
+		<div class="form-group">
+          <label for="inputProductDescription">User Profile description</label>
+          <textarea class="form-control form-div" id="inputProductDescription" rows="5" placeholder="About yourself" name="profileDescription"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary mt-4 mb-2">Submit</button>
+      </form>

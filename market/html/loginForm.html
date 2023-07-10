@@ -1,0 +1,42 @@
+<p class="mb-5"><i>Please login with your (new) username and (new) password.</i></p>
+<form action="login.php" method="POST">
+        <div class="form-group">
+          <label for="inputUsernameLogin">Username</label>
+          <input
+            type="text"
+            class="form-control form-div"
+            id="inputUsernameLogin"
+            aria-describedby="loginusernameHelp"
+            placeholder="Enter username" 
+			name="userName"
+          />
+        </div>
+        <div class="form-group">
+          <label for="inputPasswordLogin">Password</label>
+          <input
+            type="password"
+            class="form-control form-div"
+            id="inputPasswordLogin"
+            placeholder="Password"
+			name="password"
+          />
+        </div>
+		<div class="form-group">
+          <label for="inputUserTypeSignup">User Type</label>
+          <select
+            class="form-select form-div form-control"
+            id="inputUserTypeSignup"
+            aria-label="Default select example"
+			name="userType"
+          >
+            <option selected>Please choose your account user type</option>
+            <option value="buyer">Buyer</option>
+            <option value="seller">Seller</option>
+			<option value="admin">Admin</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary mt-4 mb-3">Login</button>
+      </form>
+      <small id="signUpLink" class="form-text text-muted"
+        >Don't have an account? <a href="signUp.php" class="links">Sign up here.</a></small
+      >
